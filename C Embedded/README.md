@@ -1,9 +1,9 @@
 # C Embedded
 ----------------------------
-## <details>
+<details>
   <summary>Embedded systems structure</summary>
 
-  - **Application Software**: Phần mềm giao diện cho người dùng tương tác với hệ thống nhúng (VD: WED điều khiển led)
+  - **Application Software**: Phần mềm giao diện cho người dùng tương tác với hệ thống nhúng
   - **Middleware**: Lớp trung gian giúp kết nối phần mềm ứng dụng với hệ điều hành và phần cứng (VD: MQTT)
   - **Operating System**: Hệ điều hành dùng trong hệ thống nhúng, gồm:
     - **GPOS (General Purpose Operating System)**: Hệ điều hành đa nhiệm phổ biến như Linux hoặc Windows.
