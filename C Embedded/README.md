@@ -1,5 +1,5 @@
 # C Embedded
-----------------------------
+
 <details>
   <summary>Embedded systems structure</summary>
 
