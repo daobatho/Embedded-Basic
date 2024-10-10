@@ -1,6 +1,6 @@
 # C Embedded
 ----------------------------
-<details>
+## <details>
   <summary>Embedded systems structure</summary>
 
   - **Application Software**: Phần mềm giao diện cho người dùng tương tác với hệ thống nhúng (VD: WED điều khiển led)
