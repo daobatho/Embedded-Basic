@@ -1,5 +1,5 @@
 # C Embedded
-
+---------------------------------------------------------------------------------------------------------
 <details>
   <summary>Embedded systems structure</summary>
 
@@ -22,4 +22,4 @@
     - **System on Module (SoM)**: Mô-đun phần cứng có thể tích hợp vào các hệ thống lớn hơn.
 
 </details>
-- 
+
