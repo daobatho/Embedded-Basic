@@ -10,3 +10,5 @@
 	+ Thêm Tất cả Tệp vào Stage: ```git add .``` . Hoặc chỉ định riêng tệp cần đẩy lên git ```git add <tên mục> .```
 	+ Commit Thay đổi:``` git commit -m "Nội dung mô tả"```
 	+ Đẩy Thay đổi lên GitHub:```git push origin <tên_branch>```
+	+ Nếu muốn update file thì kéo file cũ xuống rồi mới đẩy: ```git pull origin <tên_branch>```
+	
