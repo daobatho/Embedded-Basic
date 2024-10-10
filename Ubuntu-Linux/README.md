@@ -1,6 +1,6 @@
 # Ubuntu-Linux
 ----
-# Thay Đổi Tên Người Dùng
+## Thay Đổi Tên Người Dùng
 - Mở Terminal: Mở WSL (Ubuntu 22.04) của bạn.
 - Đổi sang chế độ root: Gõ lệnh sau để chuyển sang chế độ người dùng root (nếu bạn chưa ở chế độ này): 
 ```sudo -i``` 
