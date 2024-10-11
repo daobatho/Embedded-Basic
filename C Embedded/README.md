@@ -23,9 +23,10 @@
 
 </details>
 ## Quá trình biên dịch C\C++
+
 - Pre-processor: Trong giai đoạn này, tất cả các chỉ thị tiền xử lý (như #include, #define, v.v.) sẽ được xử lý. 
 Kết quả sau khi tiền xử lý là mã nguồn đã mở rộng, bao gồm các tệp tiêu đề và macro.
-	- Ví dụ: Bạn có một đoạn mã C đơn giản như sau:
+	+ Ví dụ: Bạn có một đoạn mã C đơn giản như sau:
 	```
 	#include <stdio.h>
 	#define PI 3.14
@@ -36,8 +37,8 @@ Kết quả sau khi tiền xử lý là mã nguồn đã mở rộng, bao gồm 
 	}
 	```
 	Trong giai đoạn tiền xử lý, các chỉ thị như #include và #define sẽ được xử lý. Bộ tiền xử lý sẽ:
-	- Thay thế #include <stdio.h> bằng nội dung đầy đủ của tệp tiêu đề stdio.h
-	- Thay thế PI bằng giá trị 3.14 trong toàn bộ mã nguồn.
+	+ Thay thế #include <stdio.h> bằng nội dung đầy đủ của tệp tiêu đề stdio.h
+	+ Thay thế PI bằng giá trị 3.14 trong toàn bộ mã nguồn.
 	Kết quả là mã nguồn sau khi tiền xử lý sẽ có dạng như sau:
 	```
 	// Nội dung đầy đủ của stdio.h được chèn vào đây...
@@ -51,7 +52,7 @@ Kết quả sau khi tiền xử lý là mã nguồn đã mở rộng, bao gồm 
 - Assembler: Mã Assembly sẽ được dịch tiếp thành mã máy (mã nhị phân) bởi trình dịch Assembler. Đây là mã mà CPU có thể hiểu và thực thi trực tiếp.
 (VD: 0x55 0x89 0xe5 0x83 0xec 0x08 ...) Mã này là dạng mã nhị phân tương ứng với mã Assembly, nhưng nó không thể thực thi trực tiếp cho đến khi 
 quá trình liên kết hoàn thành.
--Linker: trình liên kết (linker) sẽ kết hợp các tệp đối tượng và thư viện lại với nhau để tạo ra một tệp thực thi cuối cùng.
+- Linker: trình liên kết (linker) sẽ kết hợp các tệp đối tượng và thư viện lại với nhau để tạo ra một tệp thực thi cuối cùng.
 ## Các kiểu dữ liệu trong C
 
 | Kiểu Dữ Liệu (Data Type)    | Mô Tả (Description)                                                                 |
