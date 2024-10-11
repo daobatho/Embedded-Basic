@@ -1,5 +1,6 @@
 # C Embedded
 ---------------------------------------------------------------------------------------------------------
+## Embedded systems structure
 <details>
   <summary>Embedded systems structure</summary>
 
@@ -22,7 +23,6 @@
     - **System on Module (SoM)**: Mô-đun phần cứng có thể tích hợp vào các hệ thống lớn hơn.
 
 </details>
-----
 ## Quá trình biên dịch C\C++
 
 - Pre-processor: Trong giai đoạn này, tất cả các chỉ thị tiền xử lý (như #include, #define, v.v.) sẽ được xử lý. 
