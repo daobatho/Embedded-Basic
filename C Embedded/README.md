@@ -1,6 +1,6 @@
 # C Embedded
 ---------------------------------------------------------------------------------------------------------
-## Embedded systems structure
+
 <details>
   <summary>Embedded systems structure</summary>
 
@@ -23,10 +23,11 @@
     - **System on Module (SoM)**: Mô-đun phần cứng có thể tích hợp vào các hệ thống lớn hơn.
 
 </details>
-## Quá trình biên dịch C\C++
 
+## Quá trình biên dịch C\C++
 - Pre-processor: Trong giai đoạn này, tất cả các chỉ thị tiền xử lý (như #include, #define, v.v.) sẽ được xử lý. 
-Kết quả sau khi tiền xử lý là mã nguồn đã mở rộng, bao gồm các tệp tiêu đề và macro.
+  Kết quả sau khi tiền xử lý là mã nguồn đã mở rộng, bao gồm các tệp tiêu đề và macro.
+
 	+ Ví dụ: Bạn có một đoạn mã C đơn giản như sau:
 	```
 	#include <stdio.h>
