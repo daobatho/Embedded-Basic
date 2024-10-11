@@ -59,8 +59,10 @@ quá trình liên kết hoàn thành.
 
 | Kiểu Dữ Liệu (Data Type)    | Mô Tả (Description)                                                                 |
 |-----------------------------|-------------------------------------------------------------------------------------|
-| **Kiểu Dữ Liệu Cơ Bản**      | `int`, `char`, `float`, `double`, `short`, `long`, `long long`, `unsigned`          |
-| **Kiểu Dữ Liệu Liệt Kê**     | `enum`: Các giá trị nguyên đặt tên                                                  |
-| **Kiểu Dữ Liệu Tổ Hợp**      | `struct`, `union`, `array`, `pointer`: Các kiểu dữ liệu phức hợp                    |
-| **Kiểu Dữ Liệu Void**        | `void`: Biểu thị không có giá trị trả về hoặc không có tham số                       |
-| **Con Trỏ Hàm (Function Pointer)** | Lưu trữ địa chỉ hàm, hữu ích cho các callback và xử lý sự kiện                     |
+| **Kiểu Dữ Liệu Cơ Bản**      | `int`, `char`, `float`, `double`, `short`, `long`, `long long`, `unsigned`         |
+| **Kiểu Dữ Liệu Liệt Kê**     | `enum`: Các giá trị nguyên đặt tên                                                 |
+| **Kiểu Dữ Liệu Tổ Hợp**      | `struct`, `union`, `array`, `pointer`: Các kiểu dữ liệu phức hợp                   |
+| **Kiểu Dữ Liệu Void**        | `void`: Biểu thị không có giá trị trả về hoặc không có tham số                     |
+| **Con Trỏ Hàm (Function Pointer)** | Lưu trữ địa chỉ hàm, hữu ích cho các callback và xử lý sự kiện               |
+
+[Code mẫu về enum](enum_datatype.c)
