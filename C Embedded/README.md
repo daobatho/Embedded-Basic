@@ -66,3 +66,33 @@ quá trình liên kết hoàn thành.
 | **Con Trỏ Hàm (Function Pointer)** | Lưu trữ địa chỉ hàm, hữu ích cho các callback và xử lý sự kiện               |
 
 [Code mẫu về enum](enum_datatype.c)
+[Code mẫu về union](union_datatype.c)
+[Code mẫu về struct](struct_datatype.c)
+[Code mẫu về Pointer](Pointer_datatype.c)
+
+- Kiểu dữ liệu số nguyên
+| Type                | Memory (in Bytes) | Range                          | Format specifier |
+|---------------------|-------------------|--------------------------------|------------------|
+| short int           | 2                 | -32768 to 32767                | %hd              |
+| unsigned short int  | 2                 | 0 to 65535                     | %hu              |
+| unsigned int        | 4                 | 0 to 4294967295                | %u               |
+| int                 | 4                 | -2147483648 to 2147483647      | %d               |
+| long int            | 8                 | -2147483648 to 2147483647      | %ld              |
+| unsigned long int   | 8                 | 0 to 4294967295                | %lu              |
+| long long int       | 8                 | -(2^63) to (2^63)-1            | %lld             |
+| unsigned long long int | 8              | 0 to 18446744073709551615      | %llu             |
+
+- Kiểu số thực
+| Type         | Storage size | Value range                           |
+|--------------|--------------|---------------------------------------|
+| float        | 4 byte       | 1.2E-38 to 3.4E+38                    |
+| double       | 8 byte       | 2.3E-308 to 1.7E+308                  |
+| long double  | 10 byte      | 3.4E-4932 to 1.1E+4932                |
+
+- Kiểu dữ liệu Char
+| Type          | Memory (in Bytes) | Range                    | Format specifier |
+|---------------|-------------------|--------------------------|------------------|
+| char          | 1                 | -128 to 127 or 0 to 255   | %c               |
+| signed char   | 1                 | -128 to 127               | %c               |
+| unsigned char | 1                 | 0 to 255                 | %c               |
+
