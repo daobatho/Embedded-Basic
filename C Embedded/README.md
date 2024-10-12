@@ -71,6 +71,7 @@ quá trình liên kết hoàn thành.
 [Code mẫu về Pointer](Pointer_datatype.c)
 
 - Kiểu dữ liệu số nguyên
+
 | Type                | Memory (in Bytes) | Range                          | Format specifier |
 |---------------------|-------------------|--------------------------------|------------------|
 | short int           | 2                 | -32768 to 32767                | %hd              |
@@ -83,6 +84,7 @@ quá trình liên kết hoàn thành.
 | unsigned long long int | 8              | 0 to 18446744073709551615      | %llu             |
 
 - Kiểu số thực
+
 | Type         | Storage size | Value range                           |
 |--------------|--------------|---------------------------------------|
 | float        | 4 byte       | 1.2E-38 to 3.4E+38                    |
@@ -90,9 +92,10 @@ quá trình liên kết hoàn thành.
 | long double  | 10 byte      | 3.4E-4932 to 1.1E+4932                |
 
 - Kiểu dữ liệu Char
+
 | Type          | Memory (in Bytes) | Range                    | Format specifier |
 |---------------|-------------------|--------------------------|------------------|
-| char          | 1                 | -128 to 127 or 0 to 255   | %c               |
-| signed char   | 1                 | -128 to 127               | %c               |
+| char          | 1                 | -128 to 127 or 0 to 255  | %c               |
+| signed char   | 1                 | -128 to 127              | %c               |
 | unsigned char | 1                 | 0 to 255                 | %c               |
 
