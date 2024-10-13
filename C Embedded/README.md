@@ -99,3 +99,34 @@ quá trình liên kết hoàn thành.
 | signed char   | 1                 | -128 to 127              | %c               |
 | unsigned char | 1                 | 0 to 255                 | %c               |
 
+- Trình biên dịch quyết định kích thước các kiểu dữ liệu bao nhiêu byte
+
+## Hàm Variadic
+
+- Một hàm có thể nhận số lượng đối số thay đổi được ( ko cố định) được gọi là hàm biến thiên (variadic). Hàm này cần ít nhất 1 đối số để hoạt động
+Ví dụ :hàm printf(), scanf() chúng cho phép ta truyền số lượng đối số khác nhau sau chuỗi định dạng
+![Alt](1.PNG)
+![Alt](2.PNG)
+- Các t.Phần cơ bản xây dựng hàm Variadic tùy chọn:
+	- va_list: là 1 kiểu dữ liệu trong C dùng để lưu trữ thông tin danh sách các đối số của hàm variadic.
+	nó đóng vai trò quan trọng trong việc sử dụng các macro như va_start, va_arg, va_end, va_copy, để quản lý các đối số này
+	- va_start: cho phép bắt đầu truy cập vào các đối số.
+	- va_arg: hàm này được sử dụng để truy cập vào từng đối số trong danh sách 
+	- va_copy: hàm này sẽ sao chép 1 biến kiểu va_list từ một biến này sang biến khác.
+	- va_end: kết thúc việc duyệt qua các đối số.
+	```
+	int sum(int count, ...){
+		va_list args                      // khai báo biến Va_list
+		va_start(args, count)             // khởi tạo va_list với đối số cuối cùng
+		for(int i=0;i<count;i++){
+			total+= va_arg(args, int);    //lấy từng đối số kiểu int
+		}
+		va_copy(args_copy, args);		  // Sao chép args vào args_copy
+		va_end(args)					  // Dọn dẹp va_list gốc
+		va_end(args_copy)				  // Dọn dẹp va_list sao chép
+		return total;
+	}
+	```
+[Code mẫu về variadic](Variadic.c)
+
+
